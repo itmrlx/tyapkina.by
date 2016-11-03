@@ -1,0 +1,60 @@
+// sources
+@import 'src/_var.scss'; // project variables
+@import 'src/_wordpress.scss'; // wp classes
+@import 'src/_bootstrap.scss'; // bootstrap
+@import 'src/_jquery.fancybox.scss'; // fancybox
+@import 'src/_slick.scss'; // slick slider
+@import 'src/_fonts.scss'; // fonts
+
+// utilites
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-width: 320px;
+	overflow: hidden;
+}
+.container{
+	min-width: 320px;
+}
+.webber{
+	img{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+// buttons
+.btn{
+	transition: all .3s;
+}
+.btn-primary{
+	&.big{
+		font-size: 15px;
+		padding: 10px 40px;
+	}
+	&.white{
+		background: #fff;
+		color: $brand-primary;
+		&:hover{
+			background: darken(#fff, 10%);
+		}
+	}
+}
+
+// modal
+.fform-modal{
+	width: 250px;
+	.title{
+		margin-top: 0;
+	}
+}
+
+// global
+.images{
+	img{
+		border: 5px solid #fff;
+		box-shadow: 0 0 5px rgba(#000,.3);
+	}
+}
